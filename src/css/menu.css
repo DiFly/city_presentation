@@ -5,6 +5,28 @@
   z-index: 1;
 }
 
-.menu__item {
+.menu-black {
+  color: #fff!important;
+  background-color: #000!important;
+}
 
+.menu__item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  /* padding: 12px 24px!important; */
+}
+
+.menu__button {
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
 }
