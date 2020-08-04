@@ -1,7 +1,23 @@
 @import 'menu.css';
 
+@font-face {
+  font-family: 'Verdana Regular';
+  src: url('../fonts/verdana/Verdana.eot');
+  src: url('../fonts/verdana/Verdana.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/verdana/Verdana.woff') format('woff'),
+  url('../fonts/verdana/Verdana.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 div {
