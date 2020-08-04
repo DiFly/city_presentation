@@ -42,7 +42,7 @@
     <div class="slider__fade">
       <img src="./img/slider/kyiv_patona.jpg" class="slide__image" style="width:100%">
       <div class="slider__text-container slider__text-bm text-white">
-        <h3>KTIV City</h3>
+        <h3>KYIV City</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
@@ -161,5 +161,22 @@
       <a href="#" target="_blank" rel="noopener noreferrer">DiFly©</a>
     </p>
   </footer>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("slider__fade");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 4000);
+      }
+  </script>
 </body>
 </html>
