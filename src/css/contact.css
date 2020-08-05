@@ -6,3 +6,29 @@
   padding-bottom: 64px;
   max-width:800px;
 }
+
+.contact__title {
+  letter-spacing: 4px;
+}
+
+.contact__subtitle {
+  opacity: 0.80;
+}
+
+.contact__box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contact__box-inform {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+@media (min-width: 601px) {
+  .contact__box-inform {
+    width: 49.99999%;
+  }
+}
