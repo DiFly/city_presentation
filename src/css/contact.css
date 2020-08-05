@@ -36,8 +36,33 @@
   width: 100%;
 }
 
+.contact__form-half {
+  float: left;
+  width: 100%;
+  padding: 0 8px;
+}
+
 @media (min-width: 601px) {
   .contact__box-inform, .contact__box-dispatch {
     width: 49.99999%;
   }
+
+  .contact__form-half {
+    width: 45.99999% !important;
+}
+}
+
+.contact__form-first-line {
+  padding: 0 8px;
+  margin: 0 -16px 8px -16px;
+}
+
+.contact__form-name, .contact__form-email, .contact__form-message {
+  margin: 0;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  border: 1px solid #ccc;
 }

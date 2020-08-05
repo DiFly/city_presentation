@@ -65,3 +65,13 @@ ul {
 b {
   font-weight: bolder;
 }
+
+content-dt-cb {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+} 
