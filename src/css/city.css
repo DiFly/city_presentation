@@ -19,3 +19,15 @@
 .city__text {
   margin: 15px;
 }
+
+.city__box {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.city__image {
+  width: 65%;
+  border-radius: 5px;
+}
