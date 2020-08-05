@@ -15,3 +15,7 @@
 .footer__social-list__item {
   padding: 0px 10px;
 }
+
+.footer__author-link {
+  color: #333;
+}
