@@ -31,3 +31,17 @@
   width: 65%;
   border-radius: 5px;
 }
+
+@media (max-width: 600px) {
+  .city__box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  }
+
+  .city__image {
+    width: 85%;
+    border-radius: 5px;
+  }
+}
