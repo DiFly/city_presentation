@@ -27,8 +27,17 @@
   font-size: 18px;
 }
 
+.contact__box-inform_icon {
+  padding-right: 10px;
+}
+
+.contact__box-dispatch {
+  float: left;
+  width: 100%;
+}
+
 @media (min-width: 601px) {
-  .contact__box-inform {
+  .contact__box-inform, .contact__box-dispatch {
     width: 49.99999%;
   }
 }

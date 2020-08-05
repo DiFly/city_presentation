@@ -168,7 +168,7 @@
     <div class="contact__box">
       <ul class="contact__box-inform">
         <li>
-          <span>
+          <span class="contact__box-inform_icon">
             <svg aria-hidden="true" style="width: 0.75em;"
               focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 384 512">
@@ -180,7 +180,7 @@
           Kiev, Ukraine
         </li>
         <li>
-          <span>
+          <span class="contact__box-inform_icon">
             <svg aria-hidden="true" style="width: 0.75em;"
               focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512" >
@@ -192,7 +192,7 @@
           Phone: +38 01234567
         </li>
         <li>
-          <span>
+          <span class="contact__box-inform_icon">
             <svg aria-hidden="true" style="width: 0.75em;"
               focusable="false" role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512">
@@ -206,16 +206,16 @@
       </ul>
       <div class="contact__box-dispatch">
         <form action="#" method="post" target="_blank">
-          <div>
-            <div>
-              <input type="text" name="name" placeholder="Name">
+          <div class="contact__form-first-line">
+            <div class="contact__form-name">
+              <input type="text" name="name" placeholder="Name" required>
             </div>
-            <div>
-              <input type="email" name="email" placeholder="Email">
+            <div class="contact__form-email">
+              <input type="email" name="email" placeholder="Email" required>
             </div>
           </div>
           <input type="text" name="message" placeholder="Message" required >
-          <button type="submit">SEND</button>
+          <button type="submit" class="contact__form-submit">SEND</button>
         </form>
       </div>
     </div>
