@@ -4,7 +4,7 @@ This is a simple one page project for presenting responsive design.
 
 ## View
 
-Click to [link]() to viewing this project on your web browser.
+Click to [link](http://simple-city-presentation-tour.surge.sh/) to viewing this project on your web browser.
 
 ## Installation
 
