@@ -24,3 +24,32 @@
 .tour__subtitle {
   opacity: 0.90;
 }
+
+.tour__item-for-sell {
+  display: list-item;
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tour__item-status_sold {
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  margin-left: 16px;
+  color: #fff;
+  background-color: #f44336;
+}
+
+.tour__item-status_sell {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  /* padding-left: 8px;
+  padding-right: 8px; */
+  padding:3px 5px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 16px;
+  float: right;
+}
