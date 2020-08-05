@@ -9,4 +9,9 @@
 .footer__social-list {
   width: 100%;
   display: flex;
+  justify-content: center;
+}
+
+.footer__social-list__item {
+  padding: 0px 10px;
 }
