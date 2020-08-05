@@ -69,6 +69,19 @@
   margin-bottom: 16px;
 }
 
+@media (max-width: 600px) {
+  .tour__sell-section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .tour__sell-section_item {
+    width: 97%;
+  }
+}
+
 .tour__sell-section_image {
   border-style: none;
   vertical-align: middle;
