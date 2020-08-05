@@ -48,16 +48,18 @@
   }
 
   .contact__form-half {
-    width: 45.99999% !important;
+    width: 49.99999% !important;
 }
 }
 
 .contact__form-first-line {
+  box-sizing: border-box;
   padding: 0 8px;
   margin: 0 -16px 8px -16px;
 }
 
 .contact__form-name, .contact__form-email, .contact__form-message {
+  box-sizing: border-box;
   margin: 0;
   padding: 8px;
   display: block;
